@@ -1,0 +1,21 @@
+{
+    "family": "cybage-foodapp-taskdef",
+    "containerDefinitions": [
+        {
+            "image": "505626225624.dkr.ecr.us-east-1.amazonaws.com/cybage/food_app",
+            "name": "cybage-foodapp-task",
+            "cpu": 10,
+            "memory": 300,
+            "memoryReservation": 128,
+            "essential": true,
+            "portMappings": [
+                {
+                    "containerPort": 80,
+					"protocol": "tcp",
+                    "hostPort": 0
+                    
+                }
+            ]
+        }
+    ]
+}
