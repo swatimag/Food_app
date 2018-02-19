@@ -2,7 +2,7 @@
     "family": "cybage-foodapp-taskdef",
     "containerDefinitions": [
         {
-            "image": "505626225624.dkr.ecr.us-east-1.amazonaws.com/cybage/food_app",
+            "image": "543816070942.dkr.ecr.us-east-1.amazonaws.com/cybage/foodapp",
             "name": "cybage-foodapp-task",
             "cpu": 10,
             "memory": 300,
